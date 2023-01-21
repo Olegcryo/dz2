@@ -5,10 +5,10 @@
 
 Console.WriteLine("Введите число: ");
 int a = Convert.ToInt32(Console.ReadLine());
-if (a > 99 && a < 99999)
+if (a > 99 && a < 100000)
 {
-    int result =  a % 10 ;
-    Console.WriteLine("Третья цифра числа: " + result );
+    int result = a % 10;
+    Console.WriteLine("Третья цифра числа: " + result);
 }
 else
 {
